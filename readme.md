@@ -5,6 +5,8 @@ GRASP is an interactive Streamlit web app that helps you explore and plan your D
 ## Features
 
 - **Explore DSA Questions:** Filter LeetCode questions by tag and difficulty.
+- **Top-K Tags:** Instantly see the most frequent (central) tags/concepts across all questions.
+- **Tag Recommendation:** Select tags you know/solved and get recommendations for new tags that frequently co-occur with them in questions.
 - **Graph Visualizer:** Visualize topic dependencies and relationships interactively.
 - **Learning Order:** View a topological sort of topics/questions for guided learning.
 - **Graph Tools:** Analyze relationships using BFS and shortest path algorithms.
@@ -58,15 +60,11 @@ project/
 - [Streamlit](https://streamlit.io/) - Web app framework
 - [PyVis](https://pyvis.readthedocs.io/) - Interactive graph visualization
 - [Pandas](https://pandas.pydata.org/) - Data manipulation
-- [NetworkX](https://networkx.org/) - Graph algorithms
 
 ## Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-[MIT](LICENSE)
 
 ---
 
